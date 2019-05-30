@@ -9,7 +9,7 @@ import javajam.lang.tokens.Token;
 
 public class Evaluate {
 	/*
-	 * Gamma function based on https://introcs.cs.princeton.edu/java/91float/Gamma.java.html
+	 * Gamma function from https://introcs.cs.princeton.edu/java/91float/Gamma.java.html
 	 */
 	static double logGamma(double x) {
 	      double tmp=(x-0.5)*Math.log(x+4.5)-(x+4.5);
