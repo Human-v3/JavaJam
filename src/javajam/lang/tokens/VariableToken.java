@@ -4,7 +4,6 @@ public class VariableToken extends Token{ //For storing variable values. Type in
 	private String value;
 	public VariableToken(String val, int dep) { //Constructor
 		super(dep);
-		//System.out.println(val);
 		value=val;
 	}
 	public int getType() { //Returns integer value for type.
