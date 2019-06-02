@@ -9,7 +9,6 @@ public class NumberToken extends Token{ //For storing numerical values, double b
 	public int getType() { //returns the integer corresponding to its type
 		return 3;
 	}
-	@Override
 	public String getValue() { //To override getValue in Token.java
 		return value+"";
 	}
